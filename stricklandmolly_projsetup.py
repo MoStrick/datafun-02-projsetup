@@ -58,7 +58,7 @@ def main():
     ''' Main function to demonstrate module capabilities. '''
 
     # Print byline from imported module
-    print(f"Byline: {datafun_01_utils.byline}")
+    print(f"Byline: {datafun_01_utils}")
 
     # Call function 1 to create folders for a range (e.g. years)
     create_folders_for_range(start_year=2020, end_year=2023)
